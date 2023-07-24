@@ -1,6 +1,8 @@
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
+pip install plotly
+
 from music21 import stream, note, chord, midi
 
 def generate_midi_from_hypergraph(hypergraph, filename):
@@ -66,4 +68,3 @@ for system_name, hypergraph in musical_systems.items():
     generate_midi_from_hypergraph(hypergraph, filename)
     visualize_hypergraph(hypergraph)
 
-    
