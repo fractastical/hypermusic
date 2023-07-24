@@ -8,13 +8,17 @@ Hypermusic currently:
 
 3/ Outputs the result of the hypergraph as a playable midi file
 
-Hypermusic currently supports the matplotlib method:
+
+Example of using Hypermusic to model Pachelbel's Canon using matplotlib :
 
 <img width="548" alt="Screenshot 2023-07-24 at 12 36 01" src="https://github.com/fractastical/hypermusic/assets/589191/dd910e64-65ff-47aa-b6a6-9eb0a0a9f8d6">
 
-and the plotly method:
+
+Example of using Hypermusic to model Pachelbel's Canon using plotly :
+
 
 <img width="1139" alt="Screenshot 2023-07-24 at 12 45 54" src="https://github.com/fractastical/hypermusic/assets/589191/48b04e62-ad1a-4a58-8142-c86773010386">
+
 
 
 Created to accompany Carlos Zapata's talk on hypergraphs at SEMF 2023 (https://semf.org.es/school2023/) 
