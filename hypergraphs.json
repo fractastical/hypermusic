@@ -1,0 +1,18 @@
+{
+    "WesternMajor": {
+        "CMajor": ["C4", "E4", "G4"],
+        "AMinor": ["A4", "C5", "E5"]
+    },
+    "Pentatonic": {
+        "Penta1": ["C4", "D4", "E4", "G4", "A4"],
+        "Penta2": ["D4", "E4", "G4", "A4", "B4"]
+    },
+    "BluesScale": {
+        "Blues1": ["C4", "Eb4", "F4", "Gb4", "G4", "Bb4"],
+        "Blues2": ["C5", "Eb5", "F5", "Gb5", "G5", "Bb5"]
+    },
+    "WholeTone": {
+        "Whole1": ["C4", "D4", "E4", "Gb4", "Ab4", "Bb4"],
+        "Whole2": ["C5", "D5", "E5", "Gb5", "Ab5", "Bb5"]
+    }
+}
