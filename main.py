@@ -1,4 +1,5 @@
 import networkx as nx
+import matplotlib.pyplot as plt
 from music21 import stream, note, chord, midi
 
 # Create a hypergraph using a dictionary. The key is the hyperedge (chord name), 
@@ -34,3 +35,19 @@ mf = midi.translate.streamToMidiFile(s)
 mf.open("chords.mid", 'wb')
 mf.write()
 mf.close()
+
+# Visualize the hypergraph (bipartite graph) using NetworkX and Matplotlib
+pos = nx.spring_layout(B)  # positions for all nodes
+
+# nodes
+nx.draw_networkx_nodes(B, pos, node_size=500)
+
+# edges
+nx.draw_networkx_edges(B, pos, width=6)
+
+# labels
+nx.draw_networkx_labels(B, pos, font_size=20, font_family="sans-serif")
+
+plt.axis("off")  # turn off axis
+plt.show()  # display the graph
+
