@@ -1,6 +1,6 @@
+# Hypermusic 
 
-
-#Hypermusic currently
+Hypermusic currently:
 
 1/ Takes a musical system or score and represents it as a hypergraph
 
